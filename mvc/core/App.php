@@ -7,14 +7,12 @@ class App{
 
     function __construct(){
         $arr = $this->UrlProcess();
-        print_r($arr);
+        // print_r($arr);
         //xu li controllers
         if(file_exists("./mvc/controllers/".$arr[0].".php")){
             $this->controller = $arr[0];
             //huy gia tri thu 0
             unset($arr[0]);
-        }else{
-            
         }
         require_once "./mvc/controllers/".$this->controller.".php";
         //screeen    
@@ -40,7 +38,9 @@ class App{
         
 
     }
+    
 
 }
+
 
 ?>
