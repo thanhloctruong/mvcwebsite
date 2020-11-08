@@ -1,7 +1,8 @@
 <?php
     class ProductModel{
         public function GetTitle(){
-            return "mat na";
+            $qr = "SELECT * FROM T_SanPham";
+        return mysqli_query($this->con, $qr);
         }
         
     }

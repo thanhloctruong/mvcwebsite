@@ -1,8 +1,8 @@
 <?php
 class Home extends Controller{
     function Hi(){
-        // $acan = $this->model("ProductModel");
-        // echo $acan->GetTitle();
+        $acan = $this->model("ProductModel");
+        echo $acan->GetTitle();
         $this->view("MasterLayout",["page"=>"product"]);
     }
     function Contact(){

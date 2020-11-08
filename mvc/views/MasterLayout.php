@@ -63,6 +63,7 @@
 								<i class="fas fa-truck mr-2"></i>Track Order</a>
 						</li>
 						<li class="text-center border-right text-white">
+						
 							<i class="fas fa-phone mr-2"></i> 001 234 5678
 						</li>
 						<li class="text-center border-right text-white">
@@ -700,7 +701,7 @@
 										<div class="col-sm-6 multi-gd-img">
 											<ul class="multi-column-dropdown">
 												<li>
-													<a href="product2.html">Televisions</a>
+													<a href="../Product/">Televisions</a>
 												</li>
 												<li>
 													<a href="product2.html">Home Entertainment Systems</a>
@@ -764,7 +765,7 @@
 							</div>
 						</li>
 						<li class="nav-item mr-lg-2 mb-lg-0 mb-2">
-							<a class="nav-link" href="about.html">About Us</a>
+							<a class="nav-link" href="../About/">About Us</a>
 						</li>
 						<li class="nav-item mr-lg-2 mb-lg-0 mb-2">
 							<a class="nav-link" href="product.html">New Arrivals</a>
