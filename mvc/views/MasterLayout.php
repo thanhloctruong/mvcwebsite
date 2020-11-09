@@ -554,7 +554,7 @@
 				<!-- logo -->
 				<div class="col-md-3 logo_agile">
 					<h1 class="text-center">
-						<a href="MasterLayout.php" class="font-weight-bold font-italic">
+						<a href="./Home/" class="font-weight-bold font-italic">
 							<img src="../public/images/logo2.png" alt=" " class="img-fluid">Electro Store
 						</a>
 					</h1>
@@ -633,59 +633,24 @@
 										<div class="col-sm-6 multi-gd-img">
 											<ul class="multi-column-dropdown">
 												<li>
-													<a href="product.html">All Mobile Phones</a>
+													<a href="../Product/">All Mobile Phones</a>
 												</li>
 												<li>
-													<a href="product.html">All Mobile Accessories</a>
+													<a href="../Product/">All Mobile Accessories</a>
 												</li>
 												<li>
-													<a href="product.html">Cases & Covers</a>
+													<a href="../Product/">Cases & Covers</a>
 												</li>
 												<li>
-													<a href="product.html">Screen Protectors</a>
+													<a href="../Product/">Screen Protectors</a>
 												</li>
 												<li>
-													<a href="product.html">Power Banks</a>
+													<a href="../Product/">Power Banks</a>
 												</li>
-												<li>
-													<a href="product.html">All Certified Refurbished</a>
-												</li>
-												<li>
-													<a href="product.html">Tablets</a>
-												</li>
-												<li>
-													<a href="product.html">Wearable Devices</a>
-												</li>
-												<li>
-													<a href="product.html">Smart Home</a>
-												</li>
+												
 											</ul>
 										</div>
-										<div class="col-sm-6 multi-gd-img">
-											<ul class="multi-column-dropdown">
-												<li>
-													<a href="product.html">Laptops</a>
-												</li>
-												<li>
-													<a href="product.html">Drives & Storage</a>
-												</li>
-												<li>
-													<a href="product.html">Printers & Ink</a>
-												</li>
-												<li>
-													<a href="product.html">Networking Devices</a>
-												</li>
-												<li>
-													<a href="product.html">Computer Accessories</a>
-												</li>
-												<li>
-													<a href="product.html">Game Zone</a>
-												</li>
-												<li>
-													<a href="product.html">Software</a>
-												</li>
-											</ul>
-										</div>
+										
 									</div>
 								</div>
 							</div>
