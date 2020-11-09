@@ -4,11 +4,12 @@
     <div class="row">
 
      <!-- detail -->
-        while($dt = mysqli_fetch_array($result)) 
+     <?php
+        while($row = mysqli_fetch_array($data["SP"])){?>
         <div class="col-md-4 product-men mt-md-0 mt-5">
             <div class="men-pro-item simpleCart_shelfItem">
                 <div class="men-thumb-item text-center">
-                    <img src="../public/images/m2.jpg" alt="">
+                    <img src="../public/images/<?php echo $row["img"]?>.jpg" alt="">
                     <div class="men-cart-pro">
                         <div class="inner-men-cart-pro">
                             <a href="single.html" class="link-product-add-cart">Quick View</a>
@@ -19,11 +20,11 @@
                 </div>
                 <div class="item-info-product text-center border-top mt-4">
                     <h4 class="pt-1">
-                        <a href="single.html">OPPO A37f</a>
+                        <a href="single.html"><?php echo $row["tensp"]?></a>
                     </h4>
                     <div class="info-product-price my-2">
-                        <span class="item_price">$230.00</span>
-                        <del>$250.00</del>
+                        <span class="item_price"><?php echo $row["price"]?></span>
+                        <del><?php echo $row["price"]?></del>
                     </div>
                     <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
                         <form action="#" method="post">
@@ -45,5 +46,7 @@
                 </div>
             </div>
         </div>
+    <?php }
+        ?>
     </div>
 </div>
